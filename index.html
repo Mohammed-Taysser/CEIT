@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summer Training</title>
+    <meta name="description" content="second try to use bootstrap">
+    <meta name="keywords" content="HTML, CSS, JavaScript,bootstrap,fun,design">
+    <meta name="author" content="Mohammed Taysser">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="icon" href="sources/logo.png" type="image/icon">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="brand"><h3><span>Summer</span> Training</h3></div>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="links">
+                <li><a href="#home" onclick="toggleMenu();">home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">about</a></li>
+                <li><a href="#services" onclick="toggleMenu();">services</a></li>
+                <li><a href="#latestWork" onclick="toggleMenu();">work</a></li>
+                <li><a href="#testimonial" onclick="toggleMenu();">testimonial</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="overlay">
+            <div class="container">
+                <div class="screen">
+                    <div class="slider">
+                        <section class="slide">
+                            <h3>heading <span>#1</span></h3>
+                            <p>The PHP team is pleased to announce the seventh testing release of PHP 8.0.0, Beta 4. This point in the release cycle would normally be RC1, however we're still finalizing development of the JIT and squaring away named arguments, so we've opted for an extra beta release with plans to start the RC cycle in two weeks.</p>
+                            <button>learn more</button>
+                        </section>
+                        <section class="slide">
+                            <h3>heading <span>#2</span></h3>
+                            <p>The PHP team is pleased to announce the seventh testing release of PHP 8.0.0, Beta 4. This point in the release cycle would normally be RC1, however we're still finalizing development of the JIT and squaring away named arguments, so we've opted for an extra beta release with plans to start the RC cycle in two weeks.</p>
+                            <button>learn more</button>
+                        </section>
+                        <section class="slide">
+                            <h3>heading <span>#3</span></h3>
+                            <p>The PHP team is pleased to announce the seventh testing release of PHP 8.0.0, Beta 4. This point in the release cycle would normally be RC1, however we're still finalizing development of the JIT and squaring away named arguments, so we've opted for an extra beta release with plans to start the RC cycle in two weeks.</p>
+                            <button>learn more</button>
+                        </section>
+                        <section class="slide">
+                            <h3>heading <span>#4</span></h3>
+                            <p>The PHP team is pleased to announce the seventh testing release of PHP 8.0.0, Beta 4. This point in the release cycle would normally be RC1, however we're still finalizing development of the JIT and squaring away named arguments, so we've opted for an extra beta release with plans to start the RC cycle in two weeks.</p>
+                            <button>learn more</button>
+                        </section>
+                    </div>
+                </div>
+                <div class="controller">
+                    <div class="active"></div>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <div class="line4"></div>
+                </div>
+                <div class="img"><img src="sources/wedding.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="social-icon">
+            <ul>
+                <li><em class="fa fa-facebook"></em></li>
+                <li><em class="fa fa-twitter"></em></li>
+                <li><em class="fa fa-instagram"></em></li>
+                <li><em class="fa fa-linkedin"></em></li>
+            </ul>
+        </div>
+        <div class="quick-icon">
+            <ul>
+                <li><em class="fa fa-cog"></em><p>ANALYTICS</p></li>
+                <li><em class="fa fa-audio-description"></em><p>RECENT NEWS</p></li>
+                <li><em class="fa fa-share-alt"></em><p>SHARE TO</p></li>
+                <li><em class="fa fa-btc"></em><p>WALLET</p></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="about-me" id="about">
+        <section class="container">
+            <h2>about me</h2>
+            <section class="content">
+                <h3>I'm a Front End <span>Developer</span></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Let sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </section>
+            <div class="img"><img src="sources/panda.png" alt=""></div>
+        </section>
+    </div>
+
+    <div class="services" id="services">
+        <section class="container">
+            <h2>our <span>services</span></h2>
+            <div class="content">
+                <section class="serv">
+                    <div class="img"><img src="sources/icon1.png" alt=""></div>
+                    <h3>heading <span>#1</span></h3>
+                    <p> It was popularised in the 1960s with the release of  sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </section>
+                <section class="serv">
+                    <div class="img"><img src="sources/icon2.png" alt=""></div>
+                    <h3>heading <span>#2</span></h3>
+                    <p> It was popularised in the 1960s with the release of  sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </section>
+                <section class="serv">
+                    <div class="img"><img src="sources/icon3.png" alt=""></div>
+                    <h3>heading <span>#3</span></h3>
+                    <p> It was popularised in the 1960s with the release of  sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </section>
+                <section class="serv">
+                    <div class="img"><img src="sources/icon4.png" alt=""></div>
+                    <h3>heading <span>#4</span></h3>
+                    <p> It was popularised in the 1960s with the release of  sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </section>
+                <section class="serv">
+                    <div class="img"><img src="sources/icon5.png" alt=""></div>
+                    <h3>heading <span>#5</span></h3>
+                    <p> It was popularised in the 1960s with the release of  sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </section>
+                <section class="serv">
+                    <div class="img"><img src="sources/icon6.png" alt=""></div>
+                    <h3>heading <span>#6</span></h3>
+                    <p> It was popularised in the 1960s with the release of  sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <div class="latest-work" id="latestWork">
+        <div class="container">
+            <h2>latest <span>work</span></h2>
+            <div class="img">
+                <img src="sources/product1.jpg" alt="">
+                <img src="sources/product2.jpg" alt="">
+                <img src="sources/product3.jpg" alt="">
+                <img src="sources/product4.jpg" alt="">
+            </div>
+            <button>see more</button>
+        </div>
+    </div>
+
+    <div class="testimonial" id="testimonial">
+        <div class="container">
+            <h2>our <span>clients</span> says</h2>
+            <section class="say">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using .
+                </p>
+                <div class="name">
+                    <h3>Someone Famous</h3>
+                    <h5>Creative Designer</h5>
+                </div>
+            </section>
+            <section class="say">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using .
+                </p>
+                <div class="name">
+                    <h3>Someone Famous</h3>
+                    <h5>Creative Designer</h5>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>contact <span>us</span></h2>
+            <div class="content">
+                <div class="text">
+                    <section class="box">
+                        <div class="icon"><em class="fa fa-map-marker"></em></div>
+                        <div class="info">
+                            <h3>Address</h3>
+                            <p>Al-Azhar university, Nasr City, Cairo</p>
+                        </div>
+                    </section>
+                    <section class="box">
+                        <div class="icon"><em class="fa fa-phone"></em></div>
+                        <div class="info">
+                            <h3>phone</h3>
+                            <p>+01015081861</p>
+                        </div>
+                    </section>
+                    <section class="box">
+                        <div class="icon"><em class="fa fa-envelope-o"></em></div>
+                        <div class="info">
+                            <h3>Address</h3>
+                            <p>mohamedtaysser983@gmail.com</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="form">
+                    <form action="">
+                        <label for="userName"></label>
+                        <input type="text" id="userName" placeholder="name" required>
+                        <label for="email"></label>
+                        <input type="text" id="email" placeholder="email" required>
+                        <label for="textarea"></label>
+                        <textarea name="" id="textarea" cols="30" rows="8" placeholder="a message"></textarea>
+                        <button>send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
